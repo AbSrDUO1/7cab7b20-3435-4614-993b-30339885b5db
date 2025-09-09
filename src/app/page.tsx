@@ -36,7 +36,6 @@ export default function Home() {
       <div id="footer" data-section="footer" className="scroll-mt-24">
         <FooterBase
           logoSrc="/images/logo.svg"
-          logoAlt="Xeven Logo"
           copyrightText="© 2023 Xeven. All rights reserved."
           columns={[{ title: 'About', items: [{ label: 'Privacy Policy', onClick: () => {} }] }, { title: 'Support', items: [{ label: 'Contact', onClick: () => {} }] }]}
           onPrivacyClick={() => {}}
